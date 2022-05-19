@@ -1,0 +1,16 @@
+/**
+ */
+ namespace org.acme.model
+
+ abstract concept Person {
+    o String name
+ }
+
+ concept Official extends Person {
+    o Integer age
+ }
+
+ concept Monarch extends Person {
+    o String title
+ }
+
